@@ -7,3 +7,6 @@
 [submodule "verilator"]
 	path = verilator
 	url = http://git.veripool.org/git/verilator
+[submodule "opentitan"]
+	path = opentitan
+	url = https://github.com/lowRISC/opentitan.git
