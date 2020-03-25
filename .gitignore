@@ -1,3 +1,9 @@
 syn_lowrisc_ibex/syn_out
 
+syn_lowrisc_opentitan/syn_out
+syn_lowrisc_opentitan/sv
+
+syn_lowrisc_opentitan_aes/syn_out
+syn_lowrisc_opentitan_aes/sv
+
 __pycache__
