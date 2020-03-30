@@ -6,6 +6,7 @@ git clone --recursive "url"
 or after clone:
 git submodule update --init --recursive
 
+cell library: wget https://github.com/The-OpenROAD-Project/OpenROAD-flow/blob/master/flow/platforms/nangate45/lib/NangateOpenCellLibrary_typical.lib
 
 ## tools
 
