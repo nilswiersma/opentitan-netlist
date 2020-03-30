@@ -7,3 +7,5 @@ syn_lowrisc_opentitan_aes/syn_out
 syn_lowrisc_opentitan_aes/sv
 
 __pycache__
+
+*.lib
