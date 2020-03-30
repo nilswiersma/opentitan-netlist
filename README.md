@@ -55,6 +55,18 @@ fusesoc --cores-root .. run --target=sim --setup --build formal
 
 ?
 
-cd build
+cd build/lowrisc_
 
-find -name \*.sv -exec cp {} tmp_syn \;
+mkdir -p ./../../../../syn_lowrisc_opentitan_aes/sv
+
+find -name \\*.sv -exec cp {} tmp_syn \\;
+
+## yosys on opentitan aes only
+
+fusesoc --cores-root . run --target=syn --tool=icarus --setup lowrisc:ip:aes
+
+cd build/lowrisc_ip_aes_0.6
+
+mkdir -p ./../../../../syn_lowrisc_opentitan_aes/sv
+
+find -name \\*.sv -exec cp {} ./../../../../syn_lowrisc_opentitan_aes/sv/ \\;
