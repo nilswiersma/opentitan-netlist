@@ -10,6 +10,3 @@
 [submodule "opentitan"]
 	path = submodules/opentitan
 	url = https://github.com/lowRISC/opentitan.git
-[submodule "OpenROAD-flow"]
-	path = submodules/OpenROAD-flow
-	url = https://github.com/The-OpenROAD-Project/OpenROAD-flow
